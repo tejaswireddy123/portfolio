@@ -20,9 +20,9 @@ body {
 
 /* Header Styling */
 header {
-    background-color:  #f4f4f9;; /* Very light grey */
+    background-color: #f9f9f9; /* Very light grey */
     padding: 20px 0;
-    color: #444;
+    color: #333;
     position: fixed;
     width: 100%;
     top: 0;
@@ -37,7 +37,7 @@ header .logo {
 header .logo h1 {
     font-size: 2rem;
     font-weight: 700;
-    color: #444;
+    color: #333;
     letter-spacing: 1px;
     margin-bottom: 5px;
 }
@@ -54,14 +54,14 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #444;
+    color: #333;
     font-weight: 500;
     text-transform: uppercase;
     transition: color 0.3s ease;
 }
 
 header nav ul li a:hover {
-    color:  #f4f4f9;; /* Muted dusty purple */
+    color: #6c5b7b; /* Muted dusty purple */
 }
 
 /* Section Styling */
@@ -98,20 +98,20 @@ header nav ul li a:hover {
     font-size: 2.5rem;
     font-family: 'Pacifico', sans-serif;
     margin-bottom: 10px;
-    color: #444;
+    color: #333;
 }
 
 #about .profile-text p {
-    max-width: 800px;
+    max-width: 600px;
     font-size: 1.2rem;
-    line-height: 1.5;
+    line-height: 1.8;
     margin: 0 auto;
 }
 
 /* Skills Section */
 #skills {
-    background:  #f4f4f9;; /* Light pastel green */
-    color: #444;
+    background: #e6f7ff; /* Light pastel green */
+    color: #333;
 }
 
 #skills h2 {
@@ -137,7 +137,7 @@ header nav ul li a:hover {
 
 .skill:hover {
     transform: translateY(-10px);
-    background-color:  #f4f4f9;; /* Soft pastel green on hover */
+    background-color: #c8e6c9; /* Soft pastel green on hover */
 }
 
 #skills .skill h3 {
@@ -151,14 +151,14 @@ header nav ul li a:hover {
 
 /* Resume Section */
 #resume {
-    background:  #f4f4f9;; /* Very soft pastel purple */
+    background:  #e6f7ff; /* Very soft pastel purple */
     padding: 30px 0;
 }
 
 .download-btn {
-    background-color: #9fa8da;; /* Light pastel blue */
+    background-color: #c5cae9; /* Light pastel blue */
     color: white;
-    padding: 10px 25px;
+    padding: 10px 20px;
     text-decoration: none;
     font-weight: 500;
     border-radius: 5px;
@@ -166,19 +166,19 @@ header nav ul li a:hover {
 }
 
 .download-btn:hover {
-    background-color:  #9fa8da; /* Slightly darker pastel blue on hover */
+    background-color: #9fa8da; /* Slightly darker pastel blue on hover */
 }
 
 /* Footer Styling */
 footer {
-    background-color: #f9f9f9; /* Light grey */
-    color: #444;
+    background-color:  #e6f7ff; /* Light grey */
+    color: #333;
     padding: 20px 0;
     text-align: center;
 }
 
 footer .social-links a {
-    color: #444;
+    color: #333;
     text-decoration: none;
     margin: 0 15px;
     font-size: 1.2rem;
@@ -187,7 +187,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-    color:  #f4f4f9;; /* Muted dusty purple */
+    color: #6c5b7b; /* Muted dusty purple */
 }
 
 /* Responsive Design */
